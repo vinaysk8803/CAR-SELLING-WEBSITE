@@ -17,6 +17,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+   
 }
 html{
     font-size: 60%;
@@ -34,16 +35,21 @@ html{
     padding:3rem 9%;
     z-index: 1000;
     background: #fff;
+
 }
 .header .logo{
     font-size: 3.5rem;
     color: var(--black);
     font-weight: bolder;
+    text-decoration: none;
 }
 .header .logo span{
     color: var(--green);
+    text-decoration: none;
+
 }
 .header .navbar a{
+    text-decoration: none;
     font-size: 2rem;
     margin:0 1rem;
     color: var(--black);
@@ -383,6 +389,7 @@ section{
 }
 .footer{
     background: var(--light-green);
+ 
    
 }
 
@@ -399,6 +406,7 @@ section{
 }
 
 .footer .box-container .box a{
+    text-decoration: none;
     display: block;
     font-size: 1.4rem;
     padding:1rem 0;
@@ -423,8 +431,51 @@ section{
     font-size: 2rem;
     color:var(--black);
 }
+.reviews .container{
+    background: #262626;
+    padding: 50px 0;
+    position: relative;
+    margin: 20px 0;
+}
+.reviews h1{
+    margin: 50px 0;
+    align-items: center;
+    text-align: center;
+}
 
+.image-area{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-area img{
+    width: 100%;
+}
+.carousel-caption{
+    position: static;
+    padding-bottom: 15px;
+    padding-top: 0;
 
+}
+.carousel-caption h3{
+    font-size: 26px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.carousel-caption h4{
+    color: yellow;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.carousel-caption p{
+    font-size: 18px;
+    margin: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
 
 
 
