@@ -279,13 +279,58 @@ section{
 .icons-container .icons:hover .content p{
     color:#eee;
 }
+.heading{
+    text-align:center ;
+    padding-bottom: 4rem;
+    font-size: 4.5rem;
+    color: var(--black);
 
-.services .heading{
-    font-size: 3rem;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10px;
 }
+.heading span{
+    position: relative;
+    z-index: 0;
+}
+
+.car-image{
+    width: 700px;
+    height: 660px;
+    overflow: hidden;
+    opacity: 1;
+    margin: auto;
+}
+
+.newvehicles .carousel-caption h3{
+    font-size: 2.5rem;
+    color:var(--black);
+}
+
+.newvehicles  .carousel-item .price{
+    font-size: 2.2rem;
+    color:var(--green);
+    padding:1rem 0;
+    font-weight: bolder;
+}
+
+.newvehicles .carousel-item  .price span{
+    color:var(--light-color);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.newvehicles .carousel-item  p{
+    font-size: 1.6rem;
+    color:var(--light-color);
+    padding: 1rem 0;
+    padding-top: 1.5rem;
+    border-top: var(--border);
+}
+
+.newvehicles .carousel-item span{
+    font-size: 1rem;
+    color:var(--green);
+}
+
+
 .services .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -337,12 +382,12 @@ section{
 .services .box-container .box:hover p{
     color:#fff;
 }
-.contact .heading{
+/* .contact .heading{
     font-size: 3rem;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
-}
+} */
 .contact .row{
     display: flex;
     flex-wrap: wrap;
@@ -431,11 +476,15 @@ section{
     font-size: 2rem;
     color:var(--black);
 }
+
 .reviews .container{
     background: #262626;
     padding: 50px 0;
     position: relative;
     margin: 20px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .reviews h1{
     margin: 50px 0;
@@ -443,7 +492,7 @@ section{
     text-align: center;
 }
 
-.image-area{
+.reviews .image-area{
     width: 150px;
     height: 150px;
     margin: auto;
@@ -451,26 +500,26 @@ section{
     border-radius: 50%;
     overflow: hidden;
 }
-.image-area img{
+.reviews .image-area img{
     width: 100%;
 }
-.carousel-caption{
+.reviews .carousel-caption{
     position: static;
     padding-bottom: 15px;
     padding-top: 0;
 
 }
-.carousel-caption h3{
+.reviews .carousel-caption h3{
     font-size: 26px;
     margin-bottom: 15px;
     margin-top: 25px;
 }
-.carousel-caption h4{
-    color: yellow;
+.reviews .carousel-caption h4{
+    color: green;
     font-size: 20px;
     margin-bottom: 20px;
 }
-.carousel-caption p{
+.reviews .carousel-caption p{
     font-size: 18px;
     margin: auto;
     width: 70%;
@@ -540,5 +589,6 @@ section{
     .heading{
         font-size: 3rem;
     }
+
 
 }
