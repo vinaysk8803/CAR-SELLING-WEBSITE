@@ -308,20 +308,25 @@ section{
 }
 .newvehicles .carousel-caption h3{
     font-size: 2.5rem;
+    color:orangered;
+    padding:.5rem 0;
+}
+.newvehicles .carousel-caption h4{
+    font-size: 2.5rem;
     color:var(--black);
     padding:1rem 0;
 }
 
 .newvehicles  .carousel-item .price{
     font-size: 2.2rem;
-    color:var(--green);
+    color:black;
     padding:1rem 0;
     font-weight: bolder;
 }
 
 .newvehicles .carousel-item  .price span{
     color:var(--light-color);
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     font-weight: normal;
 }
 
@@ -375,9 +380,6 @@ section{
     color:var(--light-color);
 }
 
-.services .box-container .box:hover{
-  padding: 30px;
-}
 
 
 
