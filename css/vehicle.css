@@ -71,7 +71,7 @@ html{
 .service-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(400px,auto));
-    gap: 1rem;
+    gap: 2rem;
     margin-top: 0rem;
     padding: 0px 7rem;
 }
