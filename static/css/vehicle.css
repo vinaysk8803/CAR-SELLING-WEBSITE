@@ -117,3 +117,11 @@ html{
 .service-container .box .btn:hover{
     background:orangered;
 }
+ form input{
+    display: none;
+    width: 100%;
+    font-weight: 600;
+    font-size: 600;
+    columns: var(--black);
+    margin: 0.2rem 0 0.5rem;
+}
