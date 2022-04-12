@@ -1,5 +1,7 @@
 # CAR-SELLING-WEBSITE
 This  is my sem-4 pbl project car selling website is use to sell cars and user can by listed cars.
+
+## Screenshots of website
 <h2 align="center"> Login Section </h2>
 
 ![Screenshot (336)](https://user-images.githubusercontent.com/88550895/162899394-882e2840-0d3a-461d-9e1d-05f2f2b378c4.png)
