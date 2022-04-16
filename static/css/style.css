@@ -278,7 +278,7 @@ section{
 
 .heading{
     text-align:center ;
-    padding-bottom: 4rem;
+    padding-bottom: 0px;
     font-size: 4.5rem;
     color: var(--black);
 
@@ -537,9 +537,10 @@ section{
 
 .reviews .container{
     background: #262626;
-    padding: 50px 0;
+    padding: 10px 0;
     position: relative;
-    margin: 20px 0;
+    margin: 0px 0;
+    margin-top: 0px;
 }
 .reviews h1{
     margin: 50px 0;
@@ -567,7 +568,7 @@ section{
 .reviews .container .carousel-caption h3{
     font-size: 26px;
     margin-bottom: 15px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 .reviews .container .carousel-caption h4{
     color: yellow;
